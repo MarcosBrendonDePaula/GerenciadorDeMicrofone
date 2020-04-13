@@ -1,0 +1,55 @@
+
+.Container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: cyan;
+}
+
+.Microfones{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(92, 174, 221, 0.432);
+}
+
+.Nomes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    background-color: rgba(165, 42, 42, 0.37);
+}
+
+.Nomes div{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 20%;
+    background-color: rgba(0, 0, 0, 0.432);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.Nomes a{
+    font-size: x-large;
+}
+.Microfone{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 30%;
+    background-color: rgba(0, 0, 0, 0.205);
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.Microfone img{
+    width: 50%;
+    height: 70%;
+}
